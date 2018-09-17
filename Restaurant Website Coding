@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<!-- Restaurant Website Main Page-->
+<html lang="en">
+
+	<style>
+    nav {
+    		border-top: thin #5b7d87 solid;
+    		border-bottom: thin #5b7d87 solid;
+    		padding-top: 12px;
+    		padding-bottom: 12px;
+		}
+		nav .btn {
+    		background-color: #5b7d87;
+    		color: #fef9ff; 
+		}
+		nav .btn:hover {
+    		font-weight: bold;
+		}
+		footer {
+			background-color: #5b7d87;
+			font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+			color: #fef9ff;
+			height: 100px;
+			text-align: center;
+			padding: 30px 10px 20px 10px
+		}
+
+	</style>
+	
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>SongmanBistro.com</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+	
+	</head>
+	<body>
+	
+		<header class="jumbotron">
+			<h1>Songman's Wonderful Bistro</h1>
+			<h2 class="font-italic">Open at a New Location!</h2>
+			<h3 class="text-right mt-5">Reserve Tables Now</h3>
+		</header>
+		
+		<nav>
+			<a class="btn badge-pill" href="RestaurantBootstrap.html">Home</a>
+			<a class="btn badge-pill" href="menuBootstrap.html">Menu</a>
+			<a class="btn badge-pill" href="ContactUsBootstrap.html">Contact Us</a>
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<figure><<img class ="interior" alt="Songman's Bistro Interior" src="Restaurant Pics/BistroLocation.jpg" 
+					style="border: thick black solid;width : 400px; height: 150px;" class="img-fluid" /></figure>
+				</div>    
+    			<div class="col-lg-9">
+    				<p>Songman's Wonderful Bistro has been surving the public of New York
+					for over 30 years. Based off the popular comic, Founder Connor Strong 
+					opened this restaurant to serve a different kind of cooking. Serving your 
+					choice of meats, vegetables, and fruits, we guarentee you'll 
+					feel satisfied with your food choices. Our hours our 8:00 AM to 9:00 PM Mondays through Fridays
+					and 8:00 AM to 11:00 PM on Saturday and Sunday. Feel free to reserve a room by either calling
+					our phone number or sending an email. Hope to see you soon! </p>
+				
+				
+				</div>
+				
+
+				<p><center><img class="kabobs" alt="Songman Kabobs" src="Restaurant Pics/Songman Kabobs.jpg"
+				style="border: thick red solid; width: 500px; height: 300px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<img class="chicken" alt="Barbecue Chicken" src="Restaurant Pics/barbecue chicken.jpg"
+				style="border: thick red solid; width: 500px; height: 300px;"></center></p>
+	 		
+			</div>
+      
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		 </div>
+		 
+	<footer>
+		<p>57<sup>th</sup> street, Manhattan, New York, 10019</p>
+		<p>212-328-1999</p>	
+	</footer>
+
+
+	
+	</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<!-- Restaurant Website Menu Page-->
+<html lang="en">
+
+	<style>
+		nav {
+    		border-top: thin #5b7d87 solid;
+    		border-bottom: thin #5b7d87 solid;
+    		padding-top: 12px;
+    		padding-bottom: 12px;
+		}
+		nav .btn {
+    		background-color: #5b7d87;
+    		color: #fef9ff; 
+		}
+		nav .btn:hover {
+    		font-weight: bold;
+		}
+		footer {
+			background-color: #5b7d87;
+			font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+			color: #fef9ff;
+			height: 100px;
+			text-align: center;
+			padding: 30px 10px 20px 10px
+		}
+
+	</style>
+	
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>SongmanBistro.com</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+	
+	</head>
+	<body>
+	
+		<header class="jumbotron">
+			<h1>Songman's Wonderful Bistro</h1>
+			<h2 class="font-italic">Open at a New Location!</h2>
+			<h3 class="text-right mt-5">Reserve Tables Now</h3>
+		</header>
+		
+		<nav>
+			<a class="btn badge-pill" href="RestaurantBootstrap.html">Home</a>
+			<a class="btn badge-pill" href="menuBootstrap.html">Menu</a>
+			<a class="btn badge-pill" href="ContactUsBootstrap.html">Contact Us</a>
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<table class="menu">
+						<caption><h2><i>Menu</i></h2></caption>
+						<tr class="foodTitle1">
+							<th>Barbecue Chicken</th>
+							<th>Songman Kabobs</th>
+							<th>Baby Back Ribs</th>		
+						</tr>
+						
+						<tr class="table">
+							<td>Classic Chicken barbecued on</td>
+							<td>Our signature dish. This dish</td>
+							<td>Ribs so good the meat falls</td>
+						</tr>
+						
+						<tr  class="table">
+							<td>our patented grills. covered with</td>
+							<td>is comprised of delicious zucchini,</td>
+							<td>right off the bone. Lathered</td>
+						</tr>
+						
+						<tr  class="table">
+							<td>barbecue sauce and served with your </td>
+							<td>bacon, tomatoes, onions, and also our </td>
+							<td>with our signature barbecue</td>		
+						</tr>
+						
+						<tr  class="table">
+							<td>your choice of sides.</td>
+							<td>signiture beef, and served with your choice of sides</td>
+							<td>sauce, and served with your choice of sides.</td>
+						</tr>
+						
+						<tr  class="table">
+							<td>$9.95</td>
+							<td>$10.00 for 2</td>
+							<td>$11.55</td>
+								
+						<tr class="foodTitle2">
+							<th>Fish and Chips</th>
+							<th>Sides</th>
+							<th>Ice Cream Bowl</th>		
+						</tr>
+						
+						<tr  class="table">
+							<td>classic cod fried to perfection.</td>
+							<td>beer-buttered fries</td>
+							<td>A large 10 inch bowl</td>
+						</tr>
+						
+						<tr  class="table">
+							<td>served with fresh-cut fries and your</td>
+							<td>coleslaw</td>
+							<td>filled to the brim with your choice</td>
+						</tr>
+						
+						<tr  class="table">
+							<td>choice of one other side</td>
+							<td>rice</td>
+							<td>of chocolate, vanilla, or strawberry ice cream</td>		
+						</tr>
+						
+						<tr  class="table">
+							<td>$11.30</td>
+							<td>corn on the cob</td>
+							<td>Served with either sprinkles, chocloate syrup or both</td>
+						</tr>
+						
+						<tr  class="table">
+							<td></td>
+							<td>$0.50 each</td>
+							<td>$7.50</td>
+						</tr>
+						
+						<tr class="foodTtitle2">
+							<td>Beverages</td>	
+							<td>Price</td>	
+						</tr>	
+						
+						<tr class="table">
+							<td>Root Beer</td>
+							<td>$3.00</td>
+						</tr>
+						
+						<tr class="table">
+							<td>Bottled Water</td>
+							<td>$1.25</td>
+						</tr>
+				
+						<tr class="table">
+							<td>Lemonade</td>
+							<td>$1.00</td>
+						</tr>
+						
+						<tr class="table">
+							<td>Iced Tea</td>
+							<td>$1.25</td>
+						</tr>				
+					</table>
+
+				</div>    
+    			
+			</div>
+      
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		 </div>
+		 
+	<footer>
+		<p>57<sup>th</sup> street, Manhattan, New York, 10019</p>
+		<p>212-328-1999</p>	
+	</footer>
+
+
+	
+	</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<!-- Restaurant Website Contact Page-->
+<html lang="en">
+
+	<style>
+		nav {
+    		border-top: thin #5b7d87 solid;
+    		border-bottom: thin #5b7d87 solid;
+    		padding-top: 12px;
+    		padding-bottom: 12px;
+		}
+		nav .btn {
+    		background-color: #5b7d87;
+    		color: #fef9ff; 
+		}
+		nav .btn:hover {
+    		font-weight: bold;
+		}
+		footer {
+			background-color: #5b7d87;
+			font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+			color: #fef9ff;
+			height: 100px;
+			text-align: center;
+			padding: 30px 10px 20px 10px
+		}
+		body {
+			text-align: center;
+		}
+		label, fieldset {
+			font-size: 1.1em;
+			font-weight: bold;
+		}
+
+		input[type=text] {
+			border: 2px solid #0d1f2d;
+			width: 200px;
+			padding: 8px 8px;
+			margin: 12px 0;
+			box-sizing: border-box;
+			font-size: 1.1em;
+		}
+
+		fieldset {
+			background-color: #fef9ff;
+			width: 100%;
+			padding: 12px 20px;
+			margin: 12px 0;
+			box-sizing: border-box;
+		}
+
+		select, textarea {
+			margin: 12px 0;
+			font-size: 1em;
+		}
+
+		input[type=submit] {
+			font-size: 1.2em;
+			background-color: #546a7b;
+			color: #fef9ff;
+			padding: 4px 8px;
+		}
+
+		input[type=submit]:hover {
+			background-color: #f2eded;
+			color: #546a7b;
+		}
+
+		textarea {
+			width: 500px;
+			heignt: 200px;
+			padding: 12px 20px;
+			margin: 12px 0;
+			box-sizing: border-box;
+			border: 2px solid #0d1f2d;
+			border-radius: 3px;
+			background-color: #fff;
+			resize: none;
+		}
+
+	</style>
+	
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>SongmanBistro.com</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+	
+	</head>
+	<body>
+	
+		<header class="jumbotron">
+			<h1>Songman's Wonderful Bistro</h1>
+			<h2 class="font-italic">Open at a New Location!</h2>
+			<h3 class="text-right mt-5">Reserve Tables Now</h3>
+		</header>
+		
+		<nav>
+			<a class="btn badge-pill" href="RestaurantBootstrap.html">Home</a>
+			<a class="btn badge-pill" href="menuBootstrap.html">Menu</a>
+			<a class="btn badge-pill" href="ContactUsBootstrap.html">Contact Us</a>
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p id="contact">
+						<form action="submit.html"method="post">
+						<label for="Name">Name:</label>
+						<input type="text" id="Name" name="Name">
+						<br />
+						<label for="Email">Email:</label>
+						<input type="text" id="Email" name="Email">
+						<br />
+						<label for="Phone">Phone:</label>
+						<input type="text" id="Phone" name="Phone">
+						<br />
+						<label for="Reasons">Reason for Inquiry:</label>
+						<select id="Reasons" name="Reasons">
+							<option value="Catering" selected>Catering</option>
+							<option value="Private">Private Party</option>
+							<option value="Feedback">Feedback</option>
+							<option value="Other">Other</option>	
+						</select>
+						<br />	
+						<label for="Additional">Additional Information:</label>
+						<br />
+						<textarea name="Additional" style="width: 246px; height: 109px"></textarea>
+						
+						<fieldset>
+							<legend>Have you been to the restaurant?</legend>
+								<input type="radio" id="choice1" name="choice" value="no">
+								<label for="choice1">No</label>
+								<input type="radio" id="choice2" name="choice" value="yes">
+								<label for="choice2">Yes</label>
+						</fieldset>
+						
+						<fieldset>
+							<legend>Best days to contact you:</legend>
+								<input type="checkbox" id="M" name="Monday" value="M">
+								<label for="M">M</label>
+								<input type="checkbox" id="T" name="Tuesday" value="T">
+								<label for="T">T</label>
+								<input type="checkbox" id="W" name="Wednesday" value="W">
+								<label for="W">W</label>
+								<input type="checkbox" id="Th" name="Thursday" value="Th">
+								<label for="Th">Th</label>
+								<input type="checkbox" id="F" name="Friday" value="F">
+								<label for="F">F</label>	
+						</fieldset>
+						
+						<input type="submit" name="Send Request" value="Send Request">
+						
+						</p>
+				</div>    
+    			
+			</div>
+      
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		 </div>
+		 
+	<footer>
+		<p>57<sup>th</sup> street, Manhattan, New York, 10019</p>
+		<p>212-328-1999</p>	
+	</footer>
+
+
+	
+	</body>
+</html>
